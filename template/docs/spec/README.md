@@ -10,6 +10,10 @@ A general narrative is used to describe a typical usage flow, see [narratives.md
 
 {{What is in scope for this project and what is left out.}}
 
+## Errors (Optional)
+
+The errors that can occur in this project are listed in [errors.md](errors.md). Drop this section, and that file, if a few errors named in the rules are enough.
+
 ## Example Data (Optional)
 
 Files the examples use are in [data/](data/); the formats of data going in or out are in [schemas.md](schemas.md). Drop this section, and those files, if every example fits inline.
