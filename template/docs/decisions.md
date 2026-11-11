@@ -1,8 +1,8 @@
 # Decisions
 
-Why things are the way they are. If we throw the code away, this is what we keep.
+Any decision made about the project.
 
-One short entry per decision. Don't renumber or rewrite: mark one `Superseded by NNNN` instead. An open question is `Undecided`. Add each entry to the index.
+One short entry per decision. Don't renumber or rewrite: mark one `Superseded by NNNN` instead. An open question is `Undecided`. Make sure to add each entry to the index.
 
 ## Index
 

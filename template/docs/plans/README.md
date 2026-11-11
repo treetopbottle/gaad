@@ -1,14 +1,12 @@
 # Plans
 
-One folder per slice of work, `NN-<slug>/`: the plan is its `README.md`, next to its reviews. Finished plans stay as history.
+One folder per feature or slice of work, `NN-<slug>/`: the plan is its `README.md` and every review is a separate file. Finished plans stay as history.
 
 | Plan | Status |
 |---|---|
 
 ## Backlog
 
-- {{next slice}}
+Contains features, slices or small tasks to work on, in order of importance.
 
-Small tasks, done without a plan:
-
-- {{task}}
+- {{next task}}

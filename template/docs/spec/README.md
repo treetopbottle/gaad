@@ -1,21 +1,17 @@
 # Specification
 
-What {{Project}} does, as it stands, by example. Roles and entities are in the [README](../../README.md); the reasons are in the [decisions](../decisions.md).
+The functional specification of {{Project}} from a user perspective, using examples for further clarification. Roles and domain entities can be found in the [README](../../README.md).
 
-Each feature lists its rules. A rule has an id, `<Feature>.<NN>`, that is never reused, and an example. Each rule is translated into a test; one that can't be tested automatically says how it is checked.
+Feature specification can be found in [features.md](./features.md). Each feature lists its rules. A rule has an id, `<Feature>.<NN>`, and an example. Each rule is tested by a unit test.
 
-## {{Feature}}
+A general narrative is used to describe a typical usage flow, see [narratives.md](./narratives.md).
 
-- {{Situation}}: {{what happens}} ({{Feature}}.01)
+## Scope
 
-Example:
+{{What is in scope for this project and what is left out.}}
 
-```
-Given {{state}}
-When {{action}}
-Then {{result}}
-```
+## Example Data (Optional)
 
-## Narrative
+Files the examples use are in [data/](data/); the formats of data going in or out are in [schemas.md](schemas.md). Drop this section, and those files, if every example fits inline.
 
-{{A story of one Role using the features in order, each named like [Feature].}} One or more end-to-end tests follow it.
+- {{Entity}}: [{{file}}](data/{{file}}). {{What in it the rules rely on.}}
